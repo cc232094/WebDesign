@@ -3,23 +3,29 @@ background-color: #D2B48C;
 }
 
 h1 {
+  font-family: Helvetica;
   padding: 35px;
   text-align: center;
-  background-color: #BDB76B;
+  background-color: #F08080;
 }
 
 h2 {
-text-align: center;
+  font-family: Helvetica;
+  text-align: center;
 }
 
 h3 {
-text-align: left;
-max-width: 60%;
-margin: 0 auto;
+  font-family: "Times New Roman", Times;
+  text-align: left;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 } 
 
 p {
-text-align: left;
-max-width: 60%;
-margin: 0 auto;
+  font-family: "Times New Roman", Times;
+  text-align: left;
+  max-width: 60%;
+  margin: 0 auto;
 }
