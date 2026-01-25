@@ -1,1 +1,5 @@
+# Rainbow Six
 
+## Tom Clancy
+
+"He started to look around the cabin for a sign of danger but abruptly stopped himself. There wasn't anything wrong that he could see, and he didn't want to seem like a nervous flyer to the cabin crew. He sipped at his glass of white wine, shook his shoulders, and went back to the article on how peaceful the new world was."
