@@ -1,11 +1,11 @@
 body {
-background-color: #A9A9A9;
+background-color: #D2B48C;
 }
 
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: #ADD8E6;
+  background-color: #48D1CC;
 }
 
 h2 {
@@ -14,6 +14,8 @@ text-align: center;
 
 h3 {
 text-align: left;
+max-width: 60%;
+margin: 0 auto;
 } 
 
 p {
