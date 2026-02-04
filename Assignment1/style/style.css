@@ -6,12 +6,14 @@ h1 {
   font-family: Helvetica;
   padding: 35px;
   text-align: center;
-  background-color: #F08080;
+  background-color: #2E8B57;
+  font-size: 100px;
 }
 
 h2 {
   font-family: Helvetica;
   text-align: center;
+  font-size: 50px;
 }
 
 h3 {
@@ -21,6 +23,7 @@ h3 {
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-size: 30px;
 } 
 
 p {
@@ -28,4 +31,5 @@ p {
   text-align: left;
   max-width: 60%;
   margin: 0 auto;
+  font-size: 20px;
 }
