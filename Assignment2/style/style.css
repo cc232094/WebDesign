@@ -2,19 +2,36 @@ body {
 background-color: #D2B48C;
 }
 
-li {
-  list-style-type: none;
-  color: navy;
-  display: inline-block;
+/*Navigation, list, and link styling*/
+nav {
+  max-width: 100%;
+  margin: 10;
+}
+
+ul {
   font-family: Georgia, serif;
   font-size: 25px;
 }
 
+li {
+  list-style-type: none;
+  background-color: #FFFAFA;
+  border: 10px solid #2E8B57;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+}
+
+a {
+  color: #040080;
+}
+
+/*General content styling (headers, images, division, and footer) */
 header {
     font-family: Helvetica;
     text-align: center;
     background-color: #2E8B57;
-    color:white;
+    color:#ffffff;
 }
 
 h1 {
@@ -23,6 +40,13 @@ h1 {
 
 h2 {
   font-size: 50px;
+}
+
+.book-image {
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 5px; 
+  margin-bottom: 20px;
 }
 
 .star-image {
@@ -50,8 +74,15 @@ p {
   font-size: 20px;
 }
 
+div {
+  background-color: #FFFAFA;
+  padding: 10px;
+  border: 5px solid #2E8B57;
+  text-align: center;
+}
+
 footer {
     text-align: center;
-    font-family: Helvetica;
+    font-family: Tahoma, sans-serif;
     color: #FFFACD;
 }

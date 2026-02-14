@@ -1,3 +1,3 @@
-# Assignment 2
+# Assignment 2 Reflection
 
-I added some changes to the website from Assignment 1 to improve readability, organization, and overall theming.
+I think I am doing well, with very few challenges or things to struggle over. I did have an issue with the placement of the properties in the navigation, list, and link stylings where certain properties would not apply the desired effect properly if they were not contained in specific stylings, such as the background and border properties only creating separate boxes for the text if it was contained in the list styling. However, this issue was simple enough to overcome as thinking through what each styling would affect or change specifically as well as using trial-and-error problem-solving led me to creating much more organized code that properly applied desired outcomes. This module went much smoother than the last one and I don't think I require any help inside or outside of class as of right now.
