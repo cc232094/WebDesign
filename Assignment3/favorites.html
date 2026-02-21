@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Rainbow Six Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h2 style="margin-bottom: 10px;">My Favorite Books</h2>
+</header>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Rainbow Six</td>
+            <td>Tom Clancy</td>
+            <td>Thriller</td>
+        </tr>
+        <tr>
+            <td>The Boy In The Striped Pajamas</td>
+            <td>John Boyne</td>
+            <td>Historical Fiction</td>
+        </tr>
+        <tr>
+            <td>Hatchet</td>
+            <td>Gary Paulsen</td>
+            <td>Adventure</td>
+        </tr>
+    </tbody>
+</table>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Favorite Book Survey</legend>
+            <label>Your Name:</label>
+            <input type="text" name="name" placeholder="e.g. James Patrick">
+
+            <label>Email Address:</label>
+            <input type="email" name="email" placeholder="e.g. jpatrick@outlook.com"> 
+
+            <label>Submit Your Favorite Book:</label>
+            <input type="text" name="favorite-book" placeholder="Type your favorite book here">
+
+            <label>Favorite Genre:</label>
+            <select name="genre">
+                <option value="classic">Classic</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="adventure">Adventure</option>
+                <option value="sci-fi">Sci-Fi</option>
+                <option value="thriller">Thriller</option>
+                <option value="romance">Romance</option>
+                <option value="historical">Historical</option>
+            </select>
+
+            <p>Preferred Format:</p>
+            <label><input type="radio" name="format" value="print"> Print</label>
+            <label><input type="radio" name="format" value="ebook"> eBook</label>
+            <label><input type="radio" name="format" value="audiobook"> Audiobook</label>
+            
+            <label>
+                <input type="checkbox" name="subscribe" value="yes">
+                Sign up for Tom Clancy-related news
+            </label>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+<footer>
+    <p>&copy; 2026 Chase Comella. All rights reserved.</p>
+</footer>
