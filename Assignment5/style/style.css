@@ -26,6 +26,20 @@
   top: 8px;
 }
 
+.popover-design {
+  --bs-popover-bg: #fff3cd;
+  --bs-popover-border-color: #ffecb5;
+  --bs-popover-header-bg: #ffe69c;
+  --bs-popover-header-color: #000;
+  --bs-popover-body-color: #000;
+}
+
+.popover-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 10px;
+}
+
 main {
   max-width: 400px;
   margin: 40px auto;
@@ -199,6 +213,36 @@ main {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.hero-overlay {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.hero-overlay img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.hero-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 0 0 12px 12px;
+}
+
+.hero-overlay:hover .hero-caption {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .card {
