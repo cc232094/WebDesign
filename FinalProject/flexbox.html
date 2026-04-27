@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
+    <title>Facts</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body style="background-color: #f7db94;">
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+
+            <!-- Popup -->
+            <div id="popup">
+                <h4>Help - Navigation Guide</h4>
+
+                <p><strong>Home:</strong> Main page with overview and highlights.</p>
+                <p><strong>Contact:</strong> Get in touch or send a message.</p>
+                <p><strong>About:</strong> Learn more about the creator of the site.</p>
+                <p><strong>Blog Post:</strong> Personal experiences and stories about the Oregon Coast.</p>
+                <p><strong>Facts:</strong> Informational content and details about the Oregon Coast.</p>
+                <p><strong>Gallery:</strong> A collection of images from the Oregon Coast.</p>
+
+                <button id="closePopup">Close</button>
+            </div>
+
+            <!-- Help Button -->
+            <button 
+                id="openPopup"
+                class="navbar-brand btn btn-link text-white text-decoration-none">
+                Help
+            </button>
+
+            <!-- Mobile Toggle -->
+            <button 
+                class="navbar-toggler ms-auto"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a 
+                            class="nav-link dropdown-toggle active"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Facts</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="grid.html">Gallery</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="page-title">Facts</h1>
+
+    <main>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com">
+    </main>
+
+    <!-- Card Section -->
+    <div class="card-section">
+
+        <div class="card">
+            <img src="images/oregonfact1.jpg" alt="A 1967 image of the Oregon Coast">
+
+            <div class="blog-text">
+                <p class="date">Fun Fact 1</p>
+                <h2 class="post-title">Completely Public</h2>
+
+                <p class="post-preview">
+                    All 363 miles of coastline are completely accessible to the public, meaning anyone is free to visit any part of the Oregon Coast thanks to the 1967 Oregon Beach Bill. Signed by Tom McCall, it designated the land from the water up to 16 vertical feet above the low tide mark available to the public, protecting it from the encroaching private developments.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/oregonfact2.jpg" alt="An image of Highway 101">
+
+            <div class="blog-text">
+                <p class="date">Fun Fact 2</p>
+                <h2 class="post-title">Highway 101</h2>
+
+                <p class="post-preview">
+                    The famous Highway 101 is a highway that spans the entire stretch of the Oregon Coast and more, running from Los Angeles, California to Olympia, Washington. This highway has the Pacific Ocean on its west side and the actual Oregon coast on its east side. This makes driving down the highway a great way to admire the beauty of the coast in its entirety.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/oregonfact3.jpg" alt="An image of a bridge connecting the Oregon Coast together">
+
+            <div class="blog-text">
+                <p class="date">Fun Fact 3</p>
+                <h2 class="post-title">Sections of The Coast</h2>
+
+                <p class="post-preview">
+                    The Oregon Coast is divided up into three sections: the northern coast, known for its tourism and being home to the oldest American settlement west of the Rocky Mountains, the central coast, which is a bit more rugged and acts as a bit of a transition between north and south, and the southern coast, known for its more remote and rocky scenery accompanied by cliffs.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <img src="images/youtube.png" alt="Youtube">
+            <img src="images/instagram.png" alt="Instagram">
+            <img src="images/x.png" alt="X">
+            <img src="images/facebook.png" alt="Facebook">
+        </div>
+
+        <ul class="use-cases">
+            <li>UI Design</li>
+            <li>UX Design</li>
+            <li>Wireframing</li>
+            <li>Brainstorming</li>
+        </ul>
+
+        <ul class="explore">
+            <li>Design</li>
+            <li>Prototyping</li>
+            <li>FigJam</li>
+            <li>Design Systems</li>
+        </ul>
+
+        <ul class="resources">
+            <li>Blog</li>
+            <li>Best Practices</li>
+            <li>Support</li>
+            <li>Resource Library</li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const openPopup = document.getElementById("openPopup");
+        const popup = document.getElementById("popup");
+        const closePopup = document.getElementById("closePopup");
+
+        openPopup.onclick = () => popup.classList.add("open");
+        closePopup.onclick = () => popup.classList.remove("open");
+    </script>
+
+</body>
+</html>

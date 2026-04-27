@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
+    <title>Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body style="background-color: #f7db94;">
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+
+            <!-- Popup -->
+            <div id="popup">
+                <h4>Help - Navigation Guide</h4>
+
+                <p><strong>Home:</strong> Main page with overview and highlights.</p>
+                <p><strong>Contact:</strong> Get in touch or send a message.</p>
+                <p><strong>About:</strong> Learn more about the creator of the site.</p>
+                <p><strong>Blog Post:</strong> Personal experiences and stories about the Oregon Coast.</p>
+                <p><strong>Facts:</strong> Informational content and details about the Oregon Coast.</p>
+                <p><strong>Gallery:</strong> A collection of images from the Oregon Coast.</p>
+
+                <button id="closePopup">Close</button>
+            </div>
+
+            <!-- Help Button -->
+            <button 
+                id="openPopup"
+                class="navbar-brand btn btn-link text-white text-decoration-none">
+                Help
+            </button>
+
+            <!-- Mobile Toggle -->
+            <button 
+                class="navbar-toggler ms-auto"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a 
+                            class="nav-link dropdown-toggle active"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                            <li><a class="dropdown-item" href="flexbox.html">Facts</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="grid.html">Gallery</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-wrapper">
+
+        <h1 class="page-title">Image Gallery</h1>
+
+        <main>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com">
+        </main>
+
+        <!-- Hero Overlay -->
+        <div class="hero-overlay">
+            <img src="images/wayfarer.png" alt="A picture of the Wayfarer Restaurant">
+
+            <div class="hero-caption">
+                This picture in particular is of my favorite local restaurant on the coast, The Wayfarer.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Grid -->
+    <div class="gallery">
+        <div class="item"><p>Here are more images of the Oregon Coast.</p></div>
+        <div class="item"><img src="images/oregoncoast4.jpg" alt="A hiker reaching the Oregon Coast"></div>
+        <div class="item"><p>I have visited it several times in my life myself.</p></div>
+        <div class="item"><img src="images/oregoncoast5.jpg" alt="Steps leading to the Oregon Coast beach"></div>
+        <div class="item"><p>We often go there to spend time with family.</p></div>
+        <div class="item"><img src="images/oregoncoast6.jpg" alt="Rocks in the ocean along on the Oregon Coast"></div>
+        <div class="item"><p>I absolutely love the beaches!</p></div>
+        <div class="item"><img src="images/oregoncoast7.jpg" alt="Watery sands on the Oregon Coast"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="page-footer">&copy; 2026 Chase Comella</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const openPopup = document.getElementById("openPopup");
+        const popup = document.getElementById("popup");
+        const closePopup = document.getElementById("closePopup");
+
+        openPopup.onclick = () => popup.classList.add("open");
+        closePopup.onclick = () => popup.classList.remove("open");
+    </script>
+
+</body>
+</html>
